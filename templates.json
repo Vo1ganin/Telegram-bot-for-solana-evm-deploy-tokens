@@ -1,0 +1,30 @@
+{
+  "metaplex": [
+    {
+      "id": "demo_metaplex_devnet",
+      "name": "Demo Metaplex Devnet",
+      "description": "Безопасный демо-шаблон для теста кнопок в devnet",
+      "params": {
+        "name": "Demo Sol Token",
+        "symbol": "DSOL",
+        "decimals": 6,
+        "tokens": "1000000",
+        "uri": "https://example.com/metadata.json",
+        "network": "devnet"
+      }
+    }
+  ],
+  "evm": [
+    {
+      "id": "demo_evm_base",
+      "name": "Demo EVM Base",
+      "description": "Безопасный демо-шаблон для Base",
+      "params": {
+        "name": "Demo Base Token",
+        "symbol": "DBASE",
+        "decimals": 18,
+        "network": "base"
+      }
+    }
+  ]
+}

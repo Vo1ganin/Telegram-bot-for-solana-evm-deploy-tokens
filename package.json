@@ -1,0 +1,25 @@
+{
+  "name": "telegram-bot-unified",
+  "version": "1.0.0",
+  "description": "Unified Telegram bot for crypto token deployment (Solana DLMM, Metaplex, EVM)",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "check": "node --check bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.67.0",
+    "dotenv": "^16.4.1",
+    "ethers": "^6.9.0"
+  },
+  "overrides": {
+    "tough-cookie": "^4.1.4",
+    "qs": "^6.14.1",
+    "form-data": "^4.0.1",
+    "request": "npm:@cypress/request@^3.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
